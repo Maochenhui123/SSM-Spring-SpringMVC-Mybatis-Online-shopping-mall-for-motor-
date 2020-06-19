@@ -1,0 +1,148 @@
+body {
+    font-family:Helvetica, Arial, Verdana, sans-serif;
+    font-size:0.75em;
+    line-height:1.4;
+    background: #000000;
+    color: #fff;
+}
+
+a img {
+    border: 0px;
+    text-decoration: none;
+}
+a:link {
+    color: #42413C;
+    text-decoration: underline;
+}
+a:visited {
+    color: #6E6C64;
+    text-decoration: underline;
+}
+a:hover, a:active, a:focus {
+    text-decoration: none;
+}
+
+header, article{
+    display: block;
+}
+html, body {
+    height:100%;
+}
+
+/*-----------------------------*/
+/* -- header -- */
+header#header {
+    background: #000000 url(../img/green_line.gif) repeat-x 0 64px;
+    color:#ffffff;
+    border-bottom: 1px solid #808080;
+    height:80px;
+    width:1000px;
+    padding: 0 0 6px 0;
+}
+header#header #khilogo {
+    float:left;
+    width:144px;
+    height:64px;
+}
+header#header #btn-home {
+    float:right;
+    width:86px;
+    height:21px;
+    padding:24px 20px 0 0;
+}
+
+.container {
+    position:relative;
+    width: 1000px;
+    height:370px;
+    background: #000;
+    margin: 0 auto -20px auto;
+}
+body > .container {
+    height: auto;
+    min-height: 638px;
+}
+/* -- content -- */
+.content {
+    position:relative;
+    clear:both;
+    width: 1000px;
+    height: auto;
+    min-height:507px;
+}
+.concept {
+    position:relative;
+    height:525px;
+}
+
+h1.model-name {
+    position:absolute;
+    left:100px;
+    z-index:10;
+    line-height:1.1;
+    vertical-align:middle;
+}
+
+#modelpage3 .container {
+    background:#000;
+    _height:638px;
+}
+#modelpage3 .content header {
+    z-index: 10;
+}
+
+#modelpage3 h1.model-name {
+    color:#fff;
+    font-size:2em;
+}
+
+#modelpage3 .conceptBlock2 {
+    position:absolute;
+    top:50px;
+    left:50px;
+    width:250px;
+    border:1px solid #999;
+    padding:15px 13px;
+}
+#modelpage3 .conceptBlock2 {
+    width:280px;
+}
+#modelpage3 .conceptBlock2 h2 {
+    font-size:1.4em;
+    line-height:1.2;
+    color:#eeeeee;
+}
+#modelpage3 .conceptBlock2 p {
+    margin-top:1em;
+    line-height:1.5em;
+    color:#eeeeee;
+}
+
+#modelpage3 .modelspec {
+    position:absolute;
+    top:450px;
+    left:50px;
+    font-size:0.9em;
+}
+
+.but input[type="submit"] {
+    border: 2px solid #69be28;
+    color: #FFF;
+    font-size: 1.1em;
+    padding: 0.5em 2em;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    display: inline-block;
+    outline: none;
+    background-color: #69be28;
+}
+
+#but:hover{
+    cursor: pointer;
+}
+
+td{
+    text-align: center;
+}

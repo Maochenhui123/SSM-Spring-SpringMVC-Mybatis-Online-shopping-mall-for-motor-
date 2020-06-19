@@ -1,0 +1,72 @@
+body { 
+    font: 100%/1.4 Helvetica, Arial, Verdana, sans-serif; 
+    background: #000000; 
+    color: #eee; 
+}
+
+a img { 
+    border: 0px; 
+    text-decoration: none; 
+}
+
+a:link { color: #42413C; text-decoration: underline; }
+a:visited { color: #6E6C64; text-decoration: underline; }
+a:hover, a:active, a:focus { text-decoration: none; }
+
+
+/*header*/
+header#header { background: #000000 url(../img/green_line.gif) repeat-x 0 64px; color:#ffffff; height:80px; width:1000px; padding: 0 0 6px 0; }
+header#header #khilogo { float:left; width:144px; height:64px; }
+header#header #btn-home { float:right; width:86px; height:21px; padding:24px 20px 0 0; }
+
+
+
+/* -- container -- */
+.container {
+    position:relative;
+    width: 1000px;
+    height:370px;
+    background: #000;
+    margin: 0 auto -20px auto;
+}
+body > .container {
+    height: auto;
+    min-height: 638px;/*600px;*/
+}
+
+.slider-wrapper {
+    clear: both;
+    position:relative;
+    width:1000px;
+    min-height:525px;
+    overflow:hidden;
+
+}
+.panel {
+    width:1000px;
+    min-height:525px;
+}
+.panel ul {
+    list-style:none;
+    margin:20px 5px;
+    width:920px;
+}
+.panel ul li {
+    float:left;
+    text-align:center;
+    /* width: 230px; */
+    height:155px;
+    font-size:0.9em;
+    line-height:1.1;
+}
+.panel ul a, .panel ul a:visited {
+    display: block;
+    text-decoration: none;
+}
+.panel ul a:hover {
+    opacity: 0.8;
+}
+
+#modelpage .container {
+    background:#ffffff url(../img/bg_grade_B.jpg) repeat-x 0 bottom;
+}
